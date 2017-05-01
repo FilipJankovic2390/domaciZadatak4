@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel = "stylesheet" href = "css/style.scss" type = "text/css">
+<meta charset = "UTF-8">
+<script   src="https://code.jquery.com/jquery-2.2.2.js"   integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<div id = "header">
+		<div id = "wrapperhead">
+			<div id = "gornjalinija">
+
+				<div id = "logo">
+					<img src = "images/logo.png">
+				</div></img>
+
+			</div>	
+
+			<div id = "search">
+				<form>
+					<input type = "text" placeholder = "Search:">
+					<input type = "submit" value = "Search">
+				</form>
+			</div>
+			<div id = "menu">
+				<div class = "dropdown">
+					<a href = "#">
+						<div class = "menuitem">
+							NASLOVNA
+						</div></a>
+					</div>
+					<div class = "dropdown">
+						<a href = "#">
+							<div class = "menuitem">
+								VESTI
+							</div></a>
+						</div>
+						<div class = "dropdown">
+							<a href = "#">
+	<div class = "menuitem">
+		EVENTS
+	</div></a>
+	<div class = "dropdown-content">
+		<a href = "#">BJJ</a>
+		<a href = "#">Judo</a>
+		<a href = "#">Box</a>
+		<a href = "#">KickBox</a>
+	</div>
+</div>
+<div class = "dropdown">
+	<a href = "#">
+		<div class = "menuitem">
+			KALENDAR
+		</div></a>
+	</div>
+	<div class = "dropdown">
+		<a href = "#">
+			<div class = "menuitem">
+				O NAMA
+			</div></a>
+		</div>
+		<div class = "dropdown">
+			<a href = "#">
+				<div class = "menuitem">
+					KONTAKT
+				</div></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="w3-content" style="max-width:60%">
+	<img class="mySlides" src="images/img1.png" style="width:100%">
+	<img class="mySlides" src="images/img2.png" style="width:100%">
+	<img class="mySlides" src="images/img3.png" style="width:100%">
+	<img class="mySlides" src="images/img4.png" style="width:100%">
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none"; 
+			}
+			slideIndex++;
+			if (slideIndex > x.length) {slideIndex = 1} 
+				x[slideIndex-1].style.display = "block"; 
+			setTimeout(carousel, 2000); 
+		}
+	</script>
+
+
+</body>
+</html>

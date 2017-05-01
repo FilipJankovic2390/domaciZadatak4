@@ -1,0 +1,170 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+
+html{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background: #0f1113;
+  font-family: 'Open Sans', sans-serif;
+  margin 0 0 0 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+#header{
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background: url('../images/global.png') repeat scroll 0% 0% transparent;
+}
+
+#wrapperhead{
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#gornjalinija{
+  width: 100%;
+  height: 10px;
+  background: #5BCBF0;
+  border-bottom: 5px solid #145970;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #5BCBF0;
+}
+
+#logo{
+  margin-left: 130px;
+  margin-top: 40px;
+  float: left;
+}
+
+#search{
+  padding-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+input[type = text]{
+  background: #0f1113;
+  border: 0;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  color: silver;
+  font-weight: 700;
+}
+
+input[type = submit]{
+  background: #5BCBF0;
+  border: 0;
+  border-bottom: 4px solid #145970;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+#menu{
+  width: 100%;
+  height: 100px;
+  margin: 18px 0 0 2px;
+  float: left;
+  padding-top: 5px;
+}
+
+#menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menuitem{
+  display: inline-block;
+  padding: 15px 29px 15px 29px;
+  border-left: 1px;
+  border-left-color: white;
+  margin-left: -5px;
+  font-size: 24.9px;
+  background: #202529;
+  border-bottom: 7px solid #5BCBF0;
+}
+
+.menuitem:hover{
+  display: inline-block;
+  padding: 15px 29px 15px 29px;
+  border-left: 1px;
+  border-left-color: white;
+  margin-left: -5px;
+  font-size: 25px;
+  background: #5BCBF0;
+  border-bottom: 7px solid #5BCBF0;
+}
+
+.menuitem:active{
+  display: inline-block;
+  padding: 15px 29px 15px 29px;
+  border-left: 1px;
+  border-left-color: white;
+  margin-left: -5px;
+  font-size: 25px;
+  background: #5BCBF0;
+  border-bottom: 7px solid #145970;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #202529;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+  background-color: #5BCBF0
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn{
+    background-color: #3e8e41;
+}
+.mySlides {
+  display:none;
+}
+.w3-content {
+  margin: auto;
+}
+.w3-center {
+  margin-left: 40%;
+}
+.mySlides {
+  width: 800px;
+  height: 500px;
+}
